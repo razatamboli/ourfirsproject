@@ -31,7 +31,7 @@ tablearr2 = [{
 {
   pillars : "TypeScript",
   def : "Its strict type language same as javascript but in this we use type",
-  depen : "Javascript is give dependency to other" 
+  depen : "TypeScript is fully dependent on JS" 
 },
 {
   pillars : "HTML",

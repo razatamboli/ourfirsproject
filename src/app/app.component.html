@@ -1,0 +1,57 @@
+
+<h1 class="bg-info text-center text-uppercase p-4 mb-5">Ourfirstproject</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <hr>
+
+            <app-products></app-products>
+            <app-products></app-products>
+            <app-products></app-products>
+            <app-products></app-products>
+            
+            <hr>
+
+            <app-product></app-product>
+
+            <table class="table table-bordered my-4">
+                <thead>
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Pillars</th>
+                        <th>Defination</th>
+                        <th>Dependancy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let obj of tablearr; let i = index">
+                        <td>{{i + 1}}</td>
+                        <td>{{obj.pillars}}</td>
+                        <td>{{obj.def}}</td>
+                        <td>{{obj.depen}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table table-bordered my-4">
+                <thead>
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Pillars</th>
+                        <th>Defination</th>
+                        <th>Dependancy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let obj of tablearr2; let i = index">
+                        <td>{{i + 1}}</td>
+                        <td>{{obj.pillars}}</td>
+                        <td>{{obj.def}}</td>
+                        <td>{{obj.depen}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
